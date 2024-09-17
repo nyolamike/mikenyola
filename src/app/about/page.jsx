@@ -11,6 +11,7 @@ import {
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
+
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
     <li className={clsx(className, 'flex')}>
@@ -35,6 +36,8 @@ function MailIcon(props) {
     </svg>
   )
 }
+
+export const runtime = 'edge';
 
 export const metadata = {
   title: 'About',

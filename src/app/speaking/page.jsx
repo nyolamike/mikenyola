@@ -23,6 +23,8 @@ function Appearance({ title, description, event, cta, href }) {
   )
 }
 
+export const runtime = 'edge';
+
 export const metadata = {
   title: 'Speaking',
   description:

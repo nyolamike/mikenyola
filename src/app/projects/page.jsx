@@ -57,6 +57,8 @@ function LinkIcon(props) {
   )
 }
 
+export const runtime = 'edge';
+
 export const metadata = {
   title: 'Projects',
   description: 'Things I’ve made trying to put my dent in the universe.',

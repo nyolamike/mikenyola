@@ -38,6 +38,8 @@ function ThemeWatcher() {
   return null
 }
 
+export const runtime = 'edge';
+
 export const AppContext = createContext({})
 
 export function Providers({ children }) {

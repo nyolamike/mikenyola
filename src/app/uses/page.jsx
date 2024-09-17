@@ -28,6 +28,8 @@ export const metadata = {
   description: 'Software I use, gadgets I love, and other things I recommend.',
 }
 
+export const runtime = 'edge';
+
 export default function Uses() {
   return (
     <SimpleLayout

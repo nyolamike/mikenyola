@@ -1,5 +1,7 @@
 import { SimpleLayout } from '@/components/SimpleLayout'
 
+export const runtime = 'edge';
+
 export const metadata = {
   title: 'You’re subscribed',
   description: 'Thanks for subscribing to my newsletter.',

@@ -1,6 +1,8 @@
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 
+export const runtime = 'edge';
+
 export default function NotFound() {
   return (
     <Container className="flex h-full items-center pt-16 sm:pt-32">
